@@ -30,3 +30,10 @@ why? unsigned long is 'bigger'
 - the rank of extended signed integer types relative to another extended signed integer type is implementation-defined
 - rank is transitive.
 
+# bit shifting
+- left shift <-> mup 2
+- vacated bits filled with 0
+- example 0101 => 1010
+- right shift <-> div 2
+- right shifting signed is machine-dependent:
+				either 0-bits (logical) or bit signs (arithmatic)
